@@ -5,6 +5,7 @@
   "author": "James Amorim",
   "license": "MIT",
   "scripts": {
+    "start": "node src/app.js",
     "dev": "nodemon --inspect src/app.js"
   },
   "dependencies": {

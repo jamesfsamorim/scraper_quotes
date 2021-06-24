@@ -1,5 +1,5 @@
 const cheerio = require("cheerio")
-const Author = require("./../models/author")
+const Author = require("../models/author")
 
 class AuthorScraper {
     getProcessAuthors(htmlPages) {

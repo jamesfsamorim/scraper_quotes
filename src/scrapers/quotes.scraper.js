@@ -1,5 +1,5 @@
 const cheerio = require("cheerio")
-const Quote = require("./../models/quote")
+const Quote = require("../models/quote")
 
 class QuoteScraper {
     getProcessQuotes(htmlPages) {
